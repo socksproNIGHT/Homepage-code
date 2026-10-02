@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071526">
+  <meta name="description" content="Tech Club at P.M. SHRI Kendriya Vidyalaya Sainik Vihar: learn, build and compete.">
+  <title>Tech Club | P.M. SHRI KV Sainik Vihar</title>
+  <link rel="stylesheet" href="src/tech-club-homepage.css">
+  <script defer src="src/site-links.js"></script>
+  <script defer src="src/homepage-content.js"></script>
+  <script defer src="src/tech-club-homepage.js"></script>
+</head>
+<body class="tc-body">
+  <!-- Tech Club Homepage
+       Designed & developed by Akshat Sharma
+  -->
+  <div class="tc-homepage">
+    <canvas class="tc-particle-canvas" aria-hidden="true"></canvas>
+    <a class="tc-skip-link" href="#tc-main">Skip to main content</a>
+
+    <header class="tc-header">
+      <div class="tc-header-inner">
+        <a class="tc-brand" href="#tc-home" aria-label="Tech Club home">
+          <span class="tc-brand-mark"><img src="assets/logo/Tech_club_pfp.jpg" alt="Tech Club logo"></span>
+          <span class="tc-brand-copy">
+            <strong>Tech Club</strong>
+            <span>KV Sainik Vihar</span>
+          </span>
+        </a>
+        <button class="tc-menu-toggle" type="button" aria-expanded="false" aria-controls="tc-nav-links" aria-label="Open navigation menu">
+          <span></span><span></span>
+        </button>
+        <nav class="tc-nav" aria-label="Main navigation">
+          <div class="tc-nav-links" id="tc-nav-links">
+            <a class="tc-nav-link" href="#tc-home">Home</a>
+            <a class="tc-nav-link" href="#tc-materials" data-site-link="materials">Materials</a>
+            <a class="tc-nav-link" href="#tc-projects">Projects</a>
+            <a class="tc-nav-link" href="#tc-activities">Activities</a>
+            <a class="tc-button tc-button-small tc-button-login" href="#tc-links" data-site-link="login" data-link-status="unverified">Login <span class="tc-unverified-label">Unverified</span></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="tc-main">
+      <section class="tc-hero" id="tc-home" aria-labelledby="tc-hero-title">
+        <div class="tc-hero-grid">
+          <div class="tc-hero-copy">
+            <p class="tc-school-label">P.M. SHRI KENDRIYA VIDYALAYA <span>SAINIK VIHAR</span></p>
+            <p class="tc-hero-overline"><span class="tc-live-dot"></span> STUDENT TECHNOLOGY CLUB</p>
+            <h1 id="tc-hero-title">TECH<br><span>CLUB</span></h1>
+            <p class="tc-hero-motto">LEARN <i></i> BUILD <i></i> COMPETE</p>
+            <p class="tc-hero-description">The Tech Club helps students explore technology, build projects and prepare for coding competitions.</p>
+            <div class="tc-hero-actions">
+              <a class="tc-button tc-button-primary" href="#tc-materials" data-site-link="materials"><span>MATERIALS</span><b aria-hidden="true">&#8594;</b></a>
+              <a class="tc-button tc-button-secondary" href="#tc-projects"><span>PROJECTS</span><b aria-hidden="true">&#8599;</b></a>
+            </div>
+            <div class="tc-hero-secondary" id="tc-links" aria-label="Other website links">
+              <a href="#tc-links" data-site-link="mainWebsite" data-link-status="unverified">Main website <small>unverified</small></a>
+              <a href="#tc-links" data-site-link="alternateWebsite" data-link-status="unverified">Alternate site <small>unverified</small></a>
+            </div>
+          </div>
+
+          <div class="tc-hero-display" aria-label="Upcoming Scratch Workshop on 5 October">
+            <div class="tc-display-corner tc-display-corner-top"></div>
+            <div class="tc-display-meta"><span>CLUB SIGNAL / 001</span><span data-announcement-status>UPCOMING</span></div>
+            <div class="tc-display-content">
+              <span class="tc-display-index">NEXT ACTIVITY</span>
+              <p class="tc-display-date" data-announcement-date aria-label="5 October"><span data-announcement-day>05</span><small data-announcement-month>OCT</small></p>
+              <div class="tc-display-rule"></div>
+              <h2 data-announcement-title>Scratch Workshop</h2>
+              <p class="tc-display-caption" data-announcement-description>An upcoming Tech Club activity</p>
+            </div>
+            <div class="tc-display-footer"><span>KV / TECH CLUB</span><span>UP NEXT</span></div>
+            <div class="tc-display-corner tc-display-corner-bottom"></div>
+          </div>
+        </div>
+
+        <div class="tc-tech-decor" aria-hidden="true">
+          <span class="tc-fragment tc-fragment-one">01</span>
+          <span class="tc-fragment tc-fragment-two">{}</span>
+          <span class="tc-fragment tc-fragment-three">const</span>
+          <span class="tc-fragment tc-fragment-four">=&gt;</span>
+          <span class="tc-fragment tc-fragment-five">[ ]</span>
+          <div class="tc-code-panel tc-code-panel-one"><span class="tc-panel-label">// CLUB / CORE</span><pre><code><span class="tc-code-keyword">const</span> <span class="tc-code-variable">club</span> = <span class="tc-code-string">"Tech Club"</span>;</code></pre></div>
+          <div class="tc-code-panel tc-code-panel-two"><span class="tc-panel-label">// PRACTICE / LOOP</span><pre><code><span class="tc-code-keyword">function</span> <span class="tc-code-function">learn</span>() {
+  <span class="tc-code-keyword">return</span> <span class="tc-code-string">"build"</span>;
+}</code></pre></div>
+          <div class="tc-code-panel tc-code-panel-three"><span class="tc-panel-label">// PROGRESS / 01</span><pre><code><span class="tc-code-keyword">if</span> (student.practice) {
+  student.improve();
+}</code></pre></div>
+        </div>
+        <a class="tc-scroll-cue" href="#tc-about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="tc-about tc-section" id="tc-about" aria-labelledby="tc-about-title">
+        <div class="tc-section-heading tc-reveal">
+          <p class="tc-kicker">// ABOUT THE CLUB</p>
+          <span class="tc-section-index">01 / PURPOSE</span>
+        </div>
+        <div class="tc-about-grid tc-reveal">
+          <h2 id="tc-about-title">Curiosity becomes<br><span>capability.</span></h2>
+          <div class="tc-about-copy">
+            <p>The Tech Club teaches students technology and coding, and guides them as they prepare for coding competitions.</p>
+          </div>
+        </div>
+        <div class="tc-focus-grid" id="tc-activities" aria-label="Club focus areas">
+          <article class="tc-focus tc-reveal"><span class="tc-focus-number">01</span><span class="tc-focus-symbol" aria-hidden="true">&lt;/&gt;</span><h3>LEARN</h3><p>Coding and technology learning.</p></article>
+          <article class="tc-focus tc-reveal"><span class="tc-focus-number">02</span><span class="tc-focus-symbol" aria-hidden="true">{ }</span><h3>BUILD</h3><p>Practical student projects.</p></article>
+          <article class="tc-focus tc-reveal"><span class="tc-focus-number">03</span><span class="tc-focus-symbol" aria-hidden="true">&#8599;</span><h3>COMPETE</h3><p>Preparation for coding competitions.</p></article>
+        </div>
+      </section>
+
+      <section class="tc-projects tc-section" id="tc-projects" aria-labelledby="tc-projects-title">
+        <div class="tc-section-heading tc-reveal">
+          <p class="tc-kicker">// STUDENT PROJECTS</p>
+          <span class="tc-section-index">CREATED BY A STUDENT MEMBER</span>
+        </div>
+        <div class="tc-project-heading tc-reveal">
+          <h2 id="tc-projects-title">Student <span>projects.</span></h2>
+        </div>
+        <div class="tc-project-grid">
+          <article class="tc-project tc-project-cake tc-reveal">
+            <span class="tc-project-id">STUDENT PROJECT <i>01</i></span>
+            <div class="tc-project-art tc-cake-art" aria-hidden="true"><span class="tc-art-ring"></span><span class="tc-art-square"></span><span class="tc-art-dot"></span><span class="tc-art-code">&lt;web /&gt;</span></div>
+              <div class="tc-project-bottom"><div><h3>Cake Web</h3><p>Student project</p></div><a class="tc-project-link" href="#tc-projects" data-site-link="projects.cakeWeb" data-new-tab aria-label="Open Cake Web student project in a new tab">&#8599;</a></div>
+          </article>
+          <article class="tc-project tc-project-kundli tc-reveal">
+            <span class="tc-project-id">STUDENT PROJECT <i>02</i></span>
+            <div class="tc-project-art tc-kundli-art" aria-hidden="true"><span class="tc-art-orbit"></span><span class="tc-art-cross">+</span><span class="tc-art-dot"></span><span class="tc-art-code">[ 01 ]</span></div>
+              <div class="tc-project-bottom"><div><h3>Kundli Web</h3><p>Student project</p></div><a class="tc-project-link" href="#tc-projects" data-site-link="projects.kundliWeb" data-new-tab aria-label="Open Kundli Web student project in a new tab">&#8599;</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="tc-materials tc-section" id="tc-materials" aria-labelledby="tc-materials-title">
+        <div class="tc-materials-inner tc-reveal">
+          <div class="tc-materials-mark" aria-hidden="true"><span>01</span><i></i><i></i><i></i></div>
+          <div class="tc-materials-copy">
+            <p class="tc-kicker">// YOUR NEXT RESOURCE</p>
+            <h2 id="tc-materials-title">Learning, within reach.</h2>
+            <p>Study resources and learning materials provided through the Tech Club.</p>
+          </div>
+          <a class="tc-button tc-button-primary" href="#tc-materials" data-site-link="materials"><span>EXPLORE MATERIALS</span><b aria-hidden="true">&#8594;</b></a>
+        </div>
+      </section>
+
+      <section class="tc-achievements tc-section" aria-labelledby="tc-achievements-title">
+        <div class="tc-achievement-mark" aria-hidden="true"><span>+</span><i></i><i></i></div>
+        <div class="tc-achievement-copy tc-reveal">
+          <p class="tc-kicker">// THE WORK AHEAD</p>
+          <h2 id="tc-achievements-title">Achievements</h2>
+          <p>There are no confirmed achievements to share yet. Competition results and club milestones will be listed here when available.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="tc-footer" id="tc-footer">
+      <div class="tc-footer-main">
+        <div class="tc-footer-school"><span class="tc-footer-mark"><img src="assets/logo/Tech_club_pfp.jpg" alt=""></span><div><strong>Tech Club</strong><span>P.M. SHRI Kendriya Vidyalaya Sainik Vihar</span></div></div>
+        <nav class="tc-footer-nav" aria-label="Footer navigation">
+          <a href="#tc-home">Home</a><a href="#tc-materials" data-site-link="materials">Materials</a><a href="#tc-projects">Projects</a><a href="#tc-activities">Activities</a>
+        </nav>
+        <div class="tc-footer-external">
+          <a href="#tc-links" data-site-link="mainWebsite" data-link-status="unverified">Main Website <small>unverified</small></a>
+          <a href="#tc-links" data-site-link="alternateWebsite" data-link-status="unverified">Alternate Site <small>unverified</small></a>
+        </div>
+      </div>
+      <div class="tc-footer-bottom"><span>P.M. SHRI KV SAINIK VIHAR <i></i> TECH CLUB</span><span>Designed &amp; developed by Akshat Sharma</span></div>
+      <p class="tc-footer-contact">Club President: <a href="tel:8800541545">88005 41545</a></p>
+    </footer>
+  </div>
+</body>
+</html>
